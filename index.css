@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow: hidden;
+}
+.menu_bar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    
+    
+    
+}
+.menu_bar img{
+    height:40px;
+    margin-left: 1cm;
+    
+}
+.menu_bar h1{
+    font-size: 27px;
+    color:rgb(72, 152, 168) ;
+    margin-right: 13cm;
+    transition: all 0.3s;
+}
+.menu_bar h1:hover{
+    color:rgb(1, 200, 245) ;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 2cm    ;
+    
+    
+   
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(72, 152, 168);
+    transition: all 0.3s;
+    padding: 5px;
+    
+    
+   
+    
+}
+.menu_bar ul li a:hover{
+    color: rgb(1, 200, 245);
+  
+    
+}
+
+.dropdown_menu{
+    display: none;
+    height: 70px;
+
+}
+.dropdown_menu ul li a{
+    font-size: 13px;
+    padding-right: 10px;
+    
+    
+}
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+   
+   
+    
+    
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    
+  
+}
+.dropdown_menu ul li{
+    width: 140px;
+    padding: 10px;
+    
+   
+}
+
+
