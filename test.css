@@ -122,12 +122,3 @@ body {
     font-size: 13px;
     border-bottom: 3px solid rgb(72, 152, 168);
 }
-@media  screen and (max-width:576px) {
-    .menu_bar h1 {
-        font-size: 20px;
-    }
-    .menu_bar img {
-        margin-right: 1cm;
-        
-    }
-    }
