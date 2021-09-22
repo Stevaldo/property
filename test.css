@@ -7,7 +7,6 @@
 }
 body {
     overflow-x: hidden;
-    height: 50cm;
 }
 .menu_bar {
     height: 70px;
@@ -23,7 +22,7 @@ body {
 }
 .menu_bar img{
     height:40px;
-    margin-left: 1cm;
+    margin-left: 2cm;
     
 }
 .menu_bar h1{
@@ -41,7 +40,7 @@ body {
 .menu_bar ul {
     list-style: none;
     display: flex;
-    margin-left: 3.8cm  ;
+    margin-left: 3cm  ;
     
     
    
@@ -126,15 +125,16 @@ body {
     border-bottom: 3px solid rgb(72, 152, 168);
 }
 .hero img {
-    width: 16cm;
-    height: 16cm;
-    margin-left: 2cm;
+    width: 15cm;
+    height: 15cm;
+    margin-left: 3cm;
 }
 .hero {
     display: flex;
 }
 .text {
     margin-top: 5cm;
+    margin-left: 1cm;
 }
 .text h2{
     font-size: 30px;
