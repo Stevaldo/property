@@ -22,13 +22,12 @@ body {
 }
 .menu_bar img{
     height:40px;
-    margin-left: 2cm;
-    
+    margin-left: 1.7cm;
 }
 .menu_bar h1{
     font-size: 30px;
     color:rgb(15, 129, 155) ;
-    margin-right: 10cm;
+    margin-right: 13.8cm;
     margin-top: 10px;
     transition: all 0.3s;
 }
@@ -40,8 +39,7 @@ body {
 .menu_bar ul {
     list-style: none;
     display: flex;
-    margin-left: 3cm  ;
-    
+    margin-right: 20px;
     
    
 }
@@ -52,7 +50,7 @@ body {
 .menu_bar ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: rgb(15, 129, 155);
     transition: all 0.3s;
     
 }
@@ -75,7 +73,7 @@ body {
 .menu-toggle span{
     display:block;
     border-radius: 3px;
-    color: black;
+    color: rgb(15, 129, 155);
     font-size: 20px;
     
 }
