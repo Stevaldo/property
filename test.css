@@ -27,7 +27,7 @@ body {
 .menu_bar h1{
     font-size: 30px;
     color:rgb(15, 129, 155) ;
-    margin-right: 13.8cm;
+    margin-right: 12.8cm;
     margin-top: 10px;
     transition: all 0.3s;
 }
@@ -58,4 +58,55 @@ body {
 
 .menu_bar ul li a:hover{
     color: rgb(1, 200, 245);
+}
+#slider {
+    overflow:hidden ;
+    position: relative;
+}
+#slider::after{
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(248, 248, 248, 0.137);
+}
+#slider figure {
+    position: relative;
+    width: 300%; 
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+    margin-top: 1cm;
+    
+}
+#slider figure img{
+   float: left;
+   margin-left: 1cm;
+   border: 2px solid black;
+   
+
+
+}
+#slider figure h2 {
+    position: absolute;
+}
+@keyframes slider{
+   25% {
+       left: -50%;
+   }
+   50%{
+       left: -100%;
+   }
+   75%{
+       left: -75%;
+   }
+   85%{
+       left:-50%;
+   }
+   100%{
+       left: 0;
+   }
 }
