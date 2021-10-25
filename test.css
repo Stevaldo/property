@@ -6,7 +6,7 @@
     
 }
 body {
-    overflow-x: hidden;
+    overflow : hidden;
 }
 .menu_bar {
     height: 70px;
@@ -15,98 +15,71 @@ body {
     justify-content: space-between;
     padding: 5px;
     width: 100%;
-    background-color: white;
-    margin-top: 10px;
-
+    background-image: linear-gradient(50deg, #f5f7fa 0%, #c3cfe2a1 100%);
     
 }
+
 .menu_bar img{
-    height:40px;
-    margin-left: 1.7cm;
+    width: 5%;
+    margin-left: 1cm;
 }
 .menu_bar h1{
-    font-size: 30px;
-    color:rgb(15, 129, 155) ;
-    margin-right: 12.8cm;
-    margin-top: 10px;
-    transition: all 0.3s;
+    font-size: 25   px;
+    margin-right: 7.6cm;
+    color: rgb(15, 129, 155);;  
+    font-weight: 50
 }
-.menu_bar h1:hover{
-    color:rgb(25, 110, 129) ;
-    transition: all 2s;
-    
-}
+
 .menu_bar ul {
     list-style: none;
     display: flex;
-    margin-right: 20px;
+    margin-right: 2.2cm;
     
    
 }
 .menu_bar ul li{
-    padding: 10px 30px;
     position: relative;
 }
 .menu_bar ul li a{
     text-decoration: none;
     font-size: 20px;
     color: rgb(15, 129, 155);
-    transition: all 0.3s;
-    
+    transition: all 0.1s;
+    padding: 25px 30px;
 }
 
 
 .menu_bar ul li a:hover{
-    color: rgb(1, 200, 245);
-}
-#slider {
-    overflow:hidden ;
-    position: relative;
-}
-#slider::after{
-    content:'';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(248, 248, 248, 0.137);
-}
-#slider figure {
-    position: relative;
-    width: 300%; 
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
-    margin-top: 1cm;
-    
-}
-#slider figure img{
-   float: left;
-   margin-left: 1cm;
-   border: 2px solid black;
+    border-bottom: 5px solid rgb(15, 129, 155); ;
+    border-top: 1px solid grey;
    
-
-
 }
-#slider figure h2 {
-    position: absolute;
+.hero {
+    background-image:url(body4.jpg); ;
+    height: 100vh;
+    background-size: cover;
+    animation: bg 15s 3s infinite alternate;
 }
-@keyframes slider{
-   25% {
-       left: -50%;
-   }
-   50%{
-       left: -100%;
-   }
-   75%{
-       left: -75%;
-   }
-   85%{
-       left:-50%;
-   }
-   100%{
-       left: 0;
-   }
+.hero1 {
+    height: 100vh;
+    background-size: cover;
+    animation: bg 3s alternate;
+}
+
+@keyframes bg{
+    0%{
+        background-image: url(body4.jpg);
+    }
+    25%{
+        background-image: url(body5.jpg);
+    }
+    50%{
+        background-image: url(body2.jpg);;
+    }
+    75%{
+        background-image: url(body3.jpg);
+    }
+    100%{
+        background-image:url(body.jpg);
+    }
 }
